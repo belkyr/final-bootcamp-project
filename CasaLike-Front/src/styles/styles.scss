@@ -1,0 +1,36 @@
+//SETUP
+@import 'setup/functions';
+@import 'setup/typography';
+@import 'setup/variables';
+@import 'setup/mixins';
+
+//BASICS
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+
+//COMPONENTS
+// @import '@vuepic/vue-datepicker/src/VueDatePicker/style/main.scss';
+@import 'components/app-footer';
+@import 'components/app-header';
+@import 'components/app-modal';
+@import 'components/custom-card';
+@import 'components/login-signup';
+@import 'components/search.scss';
+@import 'components/stay-preview';
+@import 'components/reserve';
+@import 'components/backoffice-list';
+@import 'components/backoffice-preview';
+@import 'components/review-preview';
+
+
+
+
+//VIEWS
+@import 'views/about';
+@import 'views/stay-details';
+@import 'views/stay-app';
+@import 'views/home';
+@import 'views/backoffice';
+@import 'views/become-host';
+@import 'views/order-details';

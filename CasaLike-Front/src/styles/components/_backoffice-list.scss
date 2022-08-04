@@ -1,0 +1,108 @@
+.backoffice-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.backoffice-list-container table {
+    display: flex;
+    flex-direction: column;
+    table-layout: fixed;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 5px;
+    color: #222222;
+    margin-bottom: 1rem;
+    border: 1px solid lightgray;
+}
+
+.h3-card {
+    text-align: center;
+    margin-block-start: 1px;
+    margin-block-end: 10px;
+}
+
+.h3-card svg {
+    margin-right: 5px;
+}
+
+.backoffice-list-container thead {
+    display: table-row;
+    text-align: left;
+}
+
+.table-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-left: 79px;
+    color: #ff385c;
+}
+
+// .th-container {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: space-around;
+//     text-align: left;
+// }
+
+.table-heading .host-title {
+
+    margin-left: 179px;
+
+    color: #ff385c;
+}
+
+.backoffice-list-container .small-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.backoffice-list-container .small-img-container .host-title {
+    margin-left: 0;
+}
+
+.backoffice-list-container .small-img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 10px;
+}
+
+.cards {
+    /* border-right: 0.5px solid #a7a6a6; */
+    margin-top: 20px;
+    margin-bottom: 22px;
+    margin-inline-end: 20px;
+    border-radius: 15px;
+    padding-bottom: 16px;
+    border: 1px solid lightgray;
+}
+
+.last-card {
+    /* border-right: 0.5px solid #a7a6a6; */
+    margin-top: 20px;
+    margin-bottom: 22px;
+    border-radius: 15px;
+    margin-inline-end: 0px;
+    padding-bottom: 16px;
+    border: 1px solid lightgray;
+}
+
+.orders-list-container {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}

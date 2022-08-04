@@ -1,0 +1,78 @@
+.portal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 31%;
+  height: 19%;
+  border-radius: 12px;
+}
+
+.order-modal {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.portal-content button {
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-self: end;
+  justify-content: flex-end;
+}
+
+.order-status-pending-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-status-pending-modal .pending-img {
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.order-status-pending-modal .pending-img img {
+  width: 21px;
+  height: 21px;
+}
+
+.h2-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portal-close-btn:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.order-status-pending-modal .h2-modal {
+  font-size: 1.5rem;
+  font-family: CircularStd-Book;
+  letter-spacing: 0.5px;
+  color: #222222;
+  margin-bottom: 0.4rem;
+  line-height: 1.625rem;
+  letter-spacing: normal;
+  margin-top: 0;
+  text-align: center;
+}
+
+.order-status-pending-modal h3 {
+  margin-right: 5px;
+}
