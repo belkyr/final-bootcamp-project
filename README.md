@@ -5,4 +5,4 @@ Created using VueJS, VueX, VueRouter, SASS, Google Maps API, NodeJS, MongoDB.
 
 Can be viewed here :
 
-https://pacific-cliffs-47697.herokuapp.com/#/
+https://pacific-cliffs-47697.herokuapp.com
